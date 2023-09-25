@@ -15,27 +15,7 @@ export class CiscoEI implements INodeType {
 		},
 		inputs: ['main'],
 		outputs: ['main'],
-		credentials: [
-		],
-		// requestDefaults: {
-		// 	baseURL: 'https://cisco.org',
-		// 	url: '',
-		// 	headers: {
-		// 		Accept: 'application/json',
-		// 		'Content-Type': 'application/json',
-		// 	},
-		// },
-		/**
-		 * In the properties array we have two mandatory options objects required
-		 *
-		 * [Resource & Operation]
-		 *
-		 * https://docs.n8n.io/integrations/creating-nodes/code/create-first-node/#resources-and-operations
-		 *
-		 * In our example, the operations are separated into their own file (HTTPVerbDescription.ts)
-		 * to keep this class easy to read.
-		 *
-		 */
+		credentials: [ ],
 		properties: [
 			{
 				displayName: 'Resource',
