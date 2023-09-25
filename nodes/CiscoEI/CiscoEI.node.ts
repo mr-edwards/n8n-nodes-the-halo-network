@@ -17,14 +17,14 @@ export class CiscoEI implements INodeType {
 		outputs: ['main'],
 		credentials: [
 		],
-		requestDefaults: {
-			baseURL: 'https://cisco.org',
-			url: '',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
+		// requestDefaults: {
+		// 	baseURL: 'https://cisco.org',
+		// 	url: '',
+		// 	headers: {
+		// 		Accept: 'application/json',
+		// 		'Content-Type': 'application/json',
+		// 	},
+		// },
 		/**
 		 * In the properties array we have two mandatory options objects required
 		 *
