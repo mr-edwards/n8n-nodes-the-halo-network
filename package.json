@@ -1,14 +1,14 @@
 {
   "name": "mr-edwards/n8n-nodes-the-halo-network",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://cisco.com",
   "author": {
-    "name": "",
+    "name": "Steve",
     "email": ""
   },
   "repository": {
@@ -29,8 +29,7 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-    ],
+    "credentials": [],
     "nodes": [
       "dist/nodes/CiscoEI/CiscoEI.node.js"
     ]
