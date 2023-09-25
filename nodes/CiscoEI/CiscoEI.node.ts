@@ -30,9 +30,6 @@ export class CiscoEI implements INodeType {
 				],
 				default: 'httpVerb',
 			},
-
-			...httpVerbOperations,
-			...httpVerbFields,
 		],
 	};
 }
