@@ -32,7 +32,7 @@
     "credentials": [
     ],
     "nodes": [
-      "nodes/CiscoEI/CiscoEI.node.js"
+      "dist/nodes/CiscoEI/CiscoEI.node.js"
     ]
   },
   "devDependencies": {
