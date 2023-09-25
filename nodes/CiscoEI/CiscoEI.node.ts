@@ -1,28 +1,24 @@
 import { INodeType, INodeTypeDescription } from 'n8n-workflow';
 import { httpVerbFields, httpVerbOperations } from './HttpVerbDescription';
 
-export class HttpBin implements INodeType {
+export class CiscoEI implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'HttpBin',
-		name: 'httpBin',
+		displayName: 'Cisco EI',
+		name: 'CiscoEI',
 		icon: 'file:httpbin.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Interact with HttpBin API',
 		defaults: {
-			name: 'HttpBin',
+			name: 'CiscoEI',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
 		credentials: [
-			{
-				name: 'httpbinApi',
-				required: false,
-			},
 		],
 		requestDefaults: {
-			baseURL: 'https://httpbin.org',
+			baseURL: 'https://cisco.org',
 			url: '',
 			headers: {
 				Accept: 'application/json',
