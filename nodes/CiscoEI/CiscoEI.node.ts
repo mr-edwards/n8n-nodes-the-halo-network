@@ -8,7 +8,6 @@ export class CiscoEI implements INodeType {
 		icon: 'file:httpbin.svg',
 		group: ['transform'],
 		version: 1,
-		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Interact with HttpBin API',
 		defaults: {
 			name: 'CiscoEI',
